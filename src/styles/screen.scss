@@ -5,10 +5,121 @@ $base-font-family: sans-serif;
 
 html {
   text-size-adjust: 100%;
+  min-height: 100%;
 }
 
 body {
   @include font-smoothing(on);
+
   margin: 0;
-  font: $base-text-size / 1 $base-font-family;
+  background-color: hsl(200, 80%, 10%);
+  color: #fff;
+  font-family: 'Roboto', 'Arbutus Slab', serif;
+  height: 100%;
+}
+
+img {
+  width: 300px;
+  height: 325px;
+}
+
+header blockquote {
+  background-color: hsla(0, 100%, 100%, 0.75);
+  color: #333;
+  margin: -300px 0 0 10px;
+  padding: 10px;
+}
+
+section.intro {
+  background-image: url('/images/space.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: url('/images/stephan.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px;
+  background-repeat: no-repeat;
+}
+
+article {
+  background-color: #fff;
+  margin: 10px;
+  color: #333;
+  padding: 10px;
+  position: relative;
+}
+
+article.top {
+  background-image: url('/images/code.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+}
+
+article.bottom {
+  background-image: url('/images/react.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+}
+
+ul.portfolio {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+ul.portfolio li {
+  flex: 1;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  background-image: url('/images/stephan.jpg');
+}
+
+.more {
+  background-color: hsl(200, 80%, 75%);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  border: 1px solid hsl(210, 60%, 50%);
+  border-radius: 4px;
+}
+
+.more:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+.more:link {
+  color: white;
+  text-decoration: none;
+}
+
+.code {
+  width: 100%;
+  height: 130px;
+}
+
+.react {
+  width: 100%;
+  height: 130px;
 }
