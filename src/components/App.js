@@ -19,7 +19,7 @@ class App extends Component {
 
         <section />
         <article className='top'>
-          <img className='mountains' src='https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg' alt='mountains' />
+          <img className='mountains' src='https://static.pexels.com/photos/80000/panorama-mountain-montagne-pyrenees-80000.jpeg' alt='mountains' />
 
           <h1> Hello, React </h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum rerum officia quidem assumenda necessitatibus quibusdam dolor sequi molestiae aliquid inventore ut optio quisquam mollitia, repellendus, nihil, debitis voluptate aliquam eum?</p>

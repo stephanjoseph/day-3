@@ -18,22 +18,27 @@ body {
   height: 100%;
 }
 
+.stephan {
+  border-radius: 50%;
+  width: 200px;
+  flex-flow: wrap;
+  margin: -5px 0 0 10px;
+}
+
 img {
-  background-image: url('https://avatars.githubusercontent.com/u/22772275?v=3');
-  width: 300px;
-  height: 300px;
   background-repeat: no-repeat;
+  flex-flow: wrap;
 }
 
 header blockquote {
   background-color: hsla(0, 100%, 100%, 0.75);
   color: #333;
-  margin: -300px 0 0 10px;
+  margin: 10px 0 0 10px;
   padding: 10px;
+  flex-flow: wrap;
 }
 
 section.intro {
-  background-image: url('/images/space.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +61,6 @@ article {
 }
 
 article.top {
-  background-image: url('/images/code.png');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -66,7 +70,6 @@ article.top {
 }
 
 article.bottom {
-  background-image: url('/images/react.png');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -89,7 +92,6 @@ ul.portfolio li {
   background-size: cover;
   background-position: center;
   margin: 10px;
-  background-image: url('/images/stephan.jpg');
 }
 
 .more {
@@ -115,12 +117,23 @@ ul.portfolio li {
   text-decoration: none;
 }
 
-.code {
+.mountains {
   width: 100%;
   height: 130px;
 }
 
-.react {
+.stars {
   width: 100%;
   height: 130px;
+}
+
+.input {
+  border: 1px solid #000;
+}
+
+.code {
+  opacity: 80%;
+  width: 100%;
+  height: 300px;
+  flex: -1;
 }
